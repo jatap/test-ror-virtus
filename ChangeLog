@@ -1,0 +1,18 @@
+commit 14c0facd5559183f84e16385bd4be9e57fe43cfb
+Merge: 7d96b86 4ed9e40
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 25 23:14:58 2013 +0200
+
+    - Merge branch 'feature-travis' into develop
+
+commit 4ed9e4011ad6b2055d4149e0f8fda5639eccd29b
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 25 23:13:50 2013 +0200
+
+    - Add travis configuration file.
+
+commit 7d96b8607dfc02b015bba9862929575a5d36653b
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 25 23:10:24 2013 +0200
+
+    - First grupped commit.
