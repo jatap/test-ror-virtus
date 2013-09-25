@@ -1,3 +1,29 @@
+commit d83b6704b827ad34cfb51675f151bb7a97348c95
+Merge: 7b907a5 23013e3
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 25 23:25:22 2013 +0200
+
+    - Merge branch 'feature-readme' into develop
+
+commit 23013e340df726932a5e78cabe1c5dc4daf952e3
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 25 23:25:12 2013 +0200
+
+    - Update Travis URL in README.md file.
+
+commit 7b907a5b573c2c966b09bce587ffdb6730556270
+Merge: 14c0fac 7e6b7b9
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 25 23:18:06 2013 +0200
+
+    - Merge branch 'release-1.0.0' into develop
+
+commit 7e6b7b9d434a98806ca41a7ed7338283fa79b29f
+Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
+Date:   Wed Sep 25 23:17:30 2013 +0200
+
+    - Bumped to version 1.0.0.
+
 commit 14c0facd5559183f84e16385bd4be9e57fe43cfb
 Merge: 7d96b86 4ed9e40
 Author: Julio Antúnez Tarín <julio.antunez.tarin@gmail.com>
