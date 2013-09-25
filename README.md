@@ -2,7 +2,7 @@
 
 Application to test [virtus] **Ruby** gem features.
 
-[![Build Status](https://travis-ci.org/jatap/test-ror-virtus.png)](https://travis-ci.org/jatap/ror-virtus)
+[![Build Status](https://travis-ci.org/jatap/test-ror-virtus.png)](https://travis-ci.org/jatap/test-ror-virtus)
 
 ### Version
 
