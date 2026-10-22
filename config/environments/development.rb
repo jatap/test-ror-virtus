@@ -1,3 +1,4 @@
+# encoding: utf-8
 Virtus::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
@@ -41,11 +42,12 @@ Virtus::Application.configure do
   # Replace console with Pry
   if defined?(Pry)
     silence_warnings do
-        begin
-            require 'pry'
-            IRB = Pry
-        rescue LoadError
-        end
+      begin
+        require 'pry'
+        IRB = Pry
+      rescue LoadError => e
+        warn "Pry is not available: #{e.message}"
+      end
     end
   end
 end

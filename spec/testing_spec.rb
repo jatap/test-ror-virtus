@@ -24,7 +24,7 @@ describe 'Virtus' do
           country.code = '46000'
         end
         it 'is supported' do
-          expect(country.code).to eq 46000
+          expect(country.code).to eq 46_000
         end
       end
 
@@ -158,7 +158,7 @@ describe 'Virtus' do
           galaxy.code = '46000'
         end
         it 'is supported' do
-          expect(galaxy.code).to eq 46000
+          expect(galaxy.code).to eq 46_000
         end
       end
     end

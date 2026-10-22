@@ -1,0 +1,22 @@
+# RuboCop 0.13.1 (locked in Gemfile.lock) configuration.
+AllCops:
+  Includes:
+    # RuboCop 0.13.1 default patterns
+    - '**/*.gemspec'
+    - '**/Rakefile'
+    # Ruby files without a .rb extension
+    - Gemfile
+    - Guardfile
+    - Rakefile
+    - config.ru
+    - '**/*.rake'
+    - script/rails
+  Excludes:
+    # Generated or copied files
+    - db/schema.rb
+    - vendor/**
+    - tmp/**
+    - config/initializers/secret_token.rb
+
+LineLength:
+  Max: 120

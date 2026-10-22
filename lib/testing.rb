@@ -1,3 +1,4 @@
+# encoding: utf-8
 require 'json'
 
 # Univers
@@ -86,7 +87,7 @@ class Region
   attribute :name,            String
   attribute :languages,       Array[Language]
   attribute :typed_languages, LanguageCollection[Language],
-                              default: LanguageCollection.new
+            default: LanguageCollection.new
 end
 
 # Province
@@ -115,5 +116,3 @@ class Town
     self.sn = sn
   end
 end
-
-

@@ -125,9 +125,6 @@ gem-tags*
 # Sublime project files
 *.sublime-*
 
-# Code style files configuration
-.rubocop.yml
-
 # Documentation configurator
 .yard*
 
@@ -148,3 +145,6 @@ spec/dummy/.sass-cache
 
 # Secret Token
 config/initializers/secret_token.rb
+
+# Generated quality reports (SimpleCov coverage)
+/reports/

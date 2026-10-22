@@ -1,3 +1,4 @@
+# encoding: utf-8
 Virtus::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
@@ -9,7 +10,7 @@ Virtus::Application.configure do
 
   # Configure static asset server for tests with Cache-Control for performance
   config.serve_static_assets = true
-  config.static_cache_control = "public, max-age=3600"
+  config.static_cache_control = 'public, max-age=3600'
 
   # Log error messages when you accidentally call methods on nil
   config.whiny_nils = true
@@ -36,7 +37,7 @@ Virtus::Application.configure do
   config.active_support.deprecation = :stderr
 
   # ActionMailer Config
-  config.action_mailer.default_url_options = { :host => 'example.com' }
+  config.action_mailer.default_url_options = { host: 'example.com' }
 
   # Speed up tests by BCrypt's cost function
   require 'bcrypt'
@@ -47,11 +48,12 @@ Virtus::Application.configure do
   # Replace console with Pry
   if defined?(Pry)
     silence_warnings do
-        begin
-            require 'pry'
-            IRB = Pry
-        rescue LoadError
-        end
+      begin
+        require 'pry'
+        IRB = Pry
+      rescue LoadError => e
+        warn "Pry is not available: #{e.message}"
+      end
     end
   end
 end
